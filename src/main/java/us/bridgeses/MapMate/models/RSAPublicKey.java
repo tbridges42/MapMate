@@ -20,4 +20,9 @@ public class RSAPublicKey implements PublicKey {
             throw new IllegalArgumentException("Could not decode string", e);
         }
     }
+
+    @Override
+    public Fingerprint getFingerprint() {
+        return null;
+    }
 }
