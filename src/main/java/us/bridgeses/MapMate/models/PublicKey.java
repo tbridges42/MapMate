@@ -5,4 +5,5 @@ package us.bridgeses.MapMate.models;
  */
 public interface PublicKey {
     public Fingerprint getFingerprint();
+
 }
