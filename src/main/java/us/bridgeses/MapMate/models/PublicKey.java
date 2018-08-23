@@ -1,7 +1,8 @@
 package us.bridgeses.MapMate.models;
 
 /**
- * Created by tbrid on 8/21/2018.
+ * Created by tbrid on 8/22/2018.
  */
-public class PublicKey {
+public interface PublicKey {
+    public Fingerprint getFingerprint();
 }
